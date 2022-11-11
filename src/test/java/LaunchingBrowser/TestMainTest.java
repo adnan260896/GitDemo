@@ -48,11 +48,14 @@ public class TestMainTest extends LaunchBrowser{
 	@DataProvider
 	public Object[][] get_inputs()
 	{
-		Object[][] obj = new Object[2][2];
+		Object[][] obj = new Object[3][2];
 		obj[0][0]= "abc123@hello.com";
 		obj[0][1]="Abc@1234";
 		obj[1][0] = "abc123@hello.com";
 		obj[1][1]=	"Abc@12345";
+		obj[2][0]= "abc123@hello.com";
+		obj[2][1]= "Abc@123456";
+		
 		return obj;
 	}
 }
