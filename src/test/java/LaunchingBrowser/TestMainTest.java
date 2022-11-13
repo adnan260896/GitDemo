@@ -41,6 +41,7 @@ public class TestMainTest extends LaunchBrowser{
 		//Thread.sleep(5000);
 		sp.get_price();
 		System.out.println("Testing is completed!");
+		System.out.println("Testing is completed by user");
 				
 		
 		
