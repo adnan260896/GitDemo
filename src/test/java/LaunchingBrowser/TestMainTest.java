@@ -40,6 +40,7 @@ public class TestMainTest extends LaunchBrowser{
 		sp.Enter_Country(str4);
 		//Thread.sleep(5000);
 		sp.get_price();
+		System.out.println("Testing is completed!");
 				
 		
 		
